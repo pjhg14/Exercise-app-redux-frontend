@@ -1,0 +1,12 @@
+nav {
+
+    border: 1px solid red;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
