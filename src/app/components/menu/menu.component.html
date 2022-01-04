@@ -1,0 +1,10 @@
+<div class="dropdown">
+    <button (click)="toggleOpen()">open menu</button>
+    <div class="content" [class.open]="isOpen">
+        <!-- image -->
+        <img src="" alt="profile">
+        <button>Home</button>
+        <!-- login/sign-up/logout button -->
+        <button>login/signup</button>
+    </div>
+</div>

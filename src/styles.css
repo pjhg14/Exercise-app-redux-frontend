@@ -12,7 +12,13 @@
 
     /* font family after google fonts import */
 
-    --background-color: #fff;
-    --accent-color: #fff;
-    --text-color: #fff;
+    --background-color: #fbfbff;
+    --accent-color: #f39237;
+    --text-color: #41393e;
+    /* --accent2: #668F80; */
+
+    --background-color: hsl(240, 100%, 99%);
+    --accent-color: hsl(29, 89%, 58%);
+    --text-color: hsl(323, 7%, 24%);
+
 }

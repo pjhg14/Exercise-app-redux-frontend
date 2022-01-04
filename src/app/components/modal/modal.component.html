@@ -1,0 +1,8 @@
+<ng-container *ngIf="display$ | async as display">
+    <div class="backdrop" [class.open]="display" (click)="close()">
+        <div class="modal" (click)="$event.stopPropagation()">
+            <button class="close" type="button" (click)="close()">X</button>
+            <h1>Modal Works!</h1>
+        </div>
+    </div>
+</ng-container>
