@@ -1,11 +1,12 @@
-export interface User {
+// Exercise structure of old application
+export interface LegacyExercise {
     id: number
-    username: string
-    routines: RoutineExercise[]
-    
+    name: string
+    zone: string
+    image: string
+    requiresEquip: boolean
 }
 
-// Exercise Selection
 export interface Exercise {
     id: number
     name: string
